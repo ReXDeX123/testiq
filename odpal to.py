@@ -196,8 +196,6 @@ tk.mainloop()
 b=datetime.datetime(1,1,1,1,1).today()
 c=b-a
 c=c.total_seconds()
-print(sigma)
 sigma = sigma *9
-print(c)
 wynik = 337 - (c*4)-sigma
 print(str(round(wynik,2)) +"IQ")
